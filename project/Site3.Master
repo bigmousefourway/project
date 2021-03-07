@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site3.master.cs" Inherits="login.Site3" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div style="background-color: #272727;height:130px;color:white">
+            <img  style="left:1%;top:1.5%;position:absolute;width:14%;height:125px;" src="data:image/png;base64,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">
+               
+           <asp:Label ID="Label1" runat="server" style="right:6%;top:20%;position:absolute;height:38px;font-size:20px;color:black" Text="目前使用者:"></asp:Label>
+           <asp:Label ID="Label2" runat="server" style="right:1%;top:20%;position:absolute;height:38px;font-size:20px;color:black" ></asp:Label>
+            <asp:Button ID="Button1" runat="server" Text="物流管理" Style="background-color:#272727;text-align:center;font-size:25px;position:absolute;right:31%;color:white;height:130px;width:240px" OnClick="Button1_Click"/>
+            <asp:Button ID="Button2" runat="server" Text="基本資料維護" Style="background-color:#272727;text-align:center;font-size:25px;position:absolute;right:16%;color:white;height:130px;width:240px" OnClick="Button2_Click"/>
+            <asp:Button ID="Button3" runat="server" Text="登出" Style="background-color:#272727;text-align:center;font-size:25px;position:absolute;right:1%;color:white;height:130px;width:240px" OnClick="Button3_Click"/>
+            </div>
+        
+        <div style="background-color:white; ">
+            <table id="Table1">
+                
+            </table>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
